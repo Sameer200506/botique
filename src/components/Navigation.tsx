@@ -25,7 +25,7 @@ const Navigation = () => {
           <Link to="/" className="flex items-center space-x-2 group">
             <img src="/logo.png" alt="GlitzGlam Logo" className="w-8 h-8" />
             <span className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent group-hover:scale-105 duration-300">
-              GlitzGlam
+              GlitznGlam
             </span>
           </Link>
 

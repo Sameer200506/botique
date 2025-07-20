@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Phone } from 'lucide-react';
 
 const Contact = () => {
-  const whatsappNumber = "+919876543210"; // Replace with your actual WhatsApp number
+  const whatsappNumber = "+919247888626"; // Replace with your actual WhatsApp number
   const whatsappMessage = "Hello! I'm interested in your products."; // Pre-filled message
 
   const handleWhatsAppRedirect = () => {

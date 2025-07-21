@@ -1,6 +1,6 @@
 import React from 'react';
-// import { useNavigate } from 'react-router-dom'; // No longer need useNavigate
-// import { Button } from '@/components/ui/button'; // No longer need Shadcn Button for this
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
 
 const CustomTailoring = () => {
   return (
@@ -39,12 +39,9 @@ const CustomTailoring = () => {
         <p className="text-lg leading-relaxed mb-8">
           Discover the ease and luxury of custom fashion tailored just for you, without ever leaving your home. Book your home visit today and transform your wardrobe with our bespoke tailoring experience.
         </p>
-        <a
-          href="/contact"
-          className="px-8 py-3 text-lg bg-blue-500 text-white rounded inline-block"
-        >
-          Order Now
-        </a>
+        <Button asChild size="lg" className="bg-gradient-hero hover:shadow-glow transition-all duration-300">
+          <Link to="/contact">Order Now</Link>
+        </Button>
       </section>
     </div>
   );
